@@ -1,13 +1,18 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
 
+
 /**
- * main - prints if the number is positive,negative or 0
- *
+ * main - Prints if the number is positive, zero or negative
  * Return: Always 0(Success)
+ *
  */
+
 int main(void)
+
 {
         int n;
 
@@ -27,4 +32,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
         return (0);
+
 }
