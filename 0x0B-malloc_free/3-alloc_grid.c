@@ -8,7 +8,6 @@
  *
  * Return: ...
  */
-
 int **alloc_grid(int width, int height)
 {
 	int i, j, k, l;
@@ -51,4 +50,3 @@ int **alloc_grid(int width, int height)
 
 	return (a);
 }
-
